@@ -1,0 +1,25 @@
+@import "colors";
+
+body{
+    overflow-x: hidden;
+    background-color: $white;
+    font-size: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.svgtop{
+    position: absolute;
+    z-index: -1;
+    width: 584px;
+    height: 362px;
+}
+
+.svgbottom{
+    position: absolute;
+    z-index: -1;
+    width: 1085px;
+    height: 779px;
+    top: 60px;
+    right: -50px;
+}
